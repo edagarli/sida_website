@@ -1,0 +1,56 @@
+@charset "utf-8";
+/*reset*/
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu
+{ margin:0; padding:0; }
+.no_select { -moz-user-select:none; -webkit-user-select:none; user-select:none; }
+html { -webkit-text-size-adjust: none; } /* 禁用iPhone中Safari的字号自动调整 */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display: block;} /* 设置HTML5元素为块 */
+body { color: #333; }
+li { list-style: none; }
+img { max-width: 100%; }
+.fl { float: left; }
+.fr { float: right; }
+.abs { position: absolute; }
+.rel { position: relative; }
+.ellipsis { display: inline-block; width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.mainw { width: 1100px; margin: 0 auto; }
+/*--index--*/
+.banner { background: #F44546 url("./img/banner_bg.png") 50% top no-repeat; }
+.banner .mainw { height: 723px;}
+.banner_phone1 { bottom: 0; }
+.banner_txt1 { left: 374px; top: 212px; }
+.banner_txt2 { right: 100px; top: 237px; }
+.banner .btn_android { left: 400px; top: 400px; }
+.banner .btn_ios { left: 400px; top: 500px; }
+.ercode_android, .ercode_ios { right: 100px; top: 342px; }
+
+.box1,.box2,.box3,.box4 { height: 800px; border-bottom: 1px dashed #8D8D8D; }
+.box1_txt1 { top: 95px; }
+.box1_txt2 { top: 340px; }
+.box1_arrow1 { left: 370px; top: 480px; }
+.box1_phone1 { right: 90px; top: 70px; }
+.box1_phone2 { right: 302px; top: 120px; }
+.box2_phone1 { top: 78px; }
+.box2_img1 { top: 374px; }
+.box2_img2 { left: 440px; top: 130px; }
+.box2_img3 { left: 330px; top: 115px; }
+.box2_txt1 { right: 30px; top: 300px; }
+.box3_txt1 { top: 95px; }
+.box3_txt2 { top: 320px; }
+.box3_phone1 { right: 0; bottom: 115px; }
+.box3_avatar1 { right: 325px; bottom: 380px; }
+.box3_avatar2 { right: 515px; bottom: 480px; }
+.box3_avatar3 { right: 385px; bottom: 600px; }
+.box3_avatar4 { right: 160px; bottom: 490px; }
+.box4 { border-bottom: none; }
+.box4_line1 { bottom: 40px; }
+.box4_phone1 { bottom: 55px; }
+.box4_phone2 { left: 180px; bottom: 55px; }
+.box4_phone3 { left: 260px; bottom: 265px; }
+.box4_txt1 { right: 0; bottom: 320px; }
+.box5 { background-color: #ff494b; height: 380px; text-align: center; }
+.box5_txt1 { margin-top: 100px; }
+.box5_btns { bottom: 75px; width: 100%; margin: 0 auto; }
+.box5 .btn_ios { margin-left: 30px; }
+.footer { font-size: 15px; text-align: center; color: #afafaf; padding: 40px 0; line-height: 250%; }
